@@ -3,9 +3,9 @@ def simple_interest(principal, rate, time):
 
 
 if __name__ == "__main__":
-    p = float(input("Enter principal amount: "))
-    r = float(input("Enter annual interest rate: "))
-    t = float(input("Enter time in years: "))
+    p = int(input("Enter principal amount: "))
+    r = int(input("Enter annual interest rate: "))
+    t = int(input("Enter time in years: "))
 
     si = simple_interest(p, r, t)
-    print("Simple Interest:", si) 
+    print("Simple Interest:", si)
